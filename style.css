@@ -1,0 +1,94 @@
+body{
+  margin:0;
+  font-family:'Cairo',sans-serif;
+  background:#f9f9fb;
+}
+
+/* LOGO */
+
+.logo-box{
+  text-align:center;
+  padding:20px;
+  background:white;
+}
+
+.logo-box h1{
+  color:#333;
+}
+
+/* CATEGORY */
+
+.category{
+  padding:10px 15px;
+  font-size:20px;
+  color:#333;
+  font-weight:bold;
+}
+
+/* PRODUCTS */
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+  padding:10px;
+}
+
+.product{
+  background:white;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 5px 15px rgba(0,0,0,0.05);
+  position:relative;
+  padding:20px;
+}
+
+/* LIKE */
+
+.like{
+  position:absolute;
+  top:10px;
+  right:10px;
+  background:white;
+  border-radius:50%;
+  padding:6px;
+  cursor:pointer;
+}
+
+.like.active{
+  color:red;
+}
+
+/* PROMO */
+
+.promo{
+  position:absolute;
+  top:10px;
+  left:10px;
+  background:red;
+  color:white;
+  padding:5px 10px;
+  border-radius:10px;
+  font-size:12px;
+}
+
+.content{
+  text-align:center;
+  padding-top:20px;
+}
+
+.price{
+  display:flex;
+  justify-content:center;
+  gap:8px;
+}
+
+.old{
+  text-decoration:line-through;
+  color:#999;
+}
+
+.new{
+  color:#28a745;
+  font-weight:bold;
+}
